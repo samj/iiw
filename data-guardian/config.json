@@ -1,0 +1,159 @@
+{
+    "scenarios": {
+        "border_control": {
+            "context": {
+                "location": "airport",
+                "purpose": "identity_verification",
+                "requester_role": "border_agent"
+            },
+            "data_requested": [
+                "passport_details",
+                "visa_status",
+                "travel_history",
+                "watch_list_status"
+            ]
+        },
+        "routine_checkup": {
+            "context": {
+                "location": "medical_clinic",
+                "purpose": "annual_physical",
+                "requester_role": "primary_care_physician"
+            },
+            "data_requested": [
+                "vital_signs",
+                "medical_history",
+                "vaccination_records",
+                "current_medications",
+                "recent_lab_results"
+            ]
+        },
+        "tax_preparation": {
+            "context": {
+                "location": "accounting_office",
+                "purpose": "tax_filing",
+                "requester_role": "certified_accountant"
+            },
+            "data_requested": [
+                "w2_forms",
+                "tax_id",
+                "deductions",
+                "previous_tax_returns",
+                "investment_income"
+            ]
+        },
+        "celebrity_data_breach": {
+            "context": {
+                "location": "tabloid_office",
+                "purpose": "news_story",
+                "requester_role": "journalist"
+            },
+            "data_requested": [
+                "medical_records",
+                "phone_records",
+                "bank_statements",
+                "private_messages",
+                "location_history"
+            ]
+        },
+        "corporate_espionage": {
+            "context": {
+                "location": "competitor_office",
+                "purpose": "competitive_analysis",
+                "requester_role": "business_analyst"
+            },
+            "data_requested": [
+                "employee_salaries",
+                "product_roadmap",
+                "client_contracts",
+                "financial_projections",
+                "research_data"
+            ]
+        },
+        "school_nurse": {
+            "context": {
+                "location": "elementary_school",
+                "purpose": "student_care",
+                "requester_role": "school_nurse"
+            },
+            "data_requested": [
+                "allergies",
+                "emergency_contacts",
+                "vaccination_records",
+                "family_financial_status",
+                "parents_medical_history",
+                "behavioral_counseling_notes"
+            ]
+        },
+        "fitness_trainer": {
+            "context": {
+                "location": "gym",
+                "purpose": "personal_training",
+                "requester_role": "certified_trainer"
+            },
+            "data_requested": [
+                "fitness_goals",
+                "exercise_preferences",
+                "current_injuries",
+                "mental_health_history",
+                "financial_credit_score",
+                "social_media_accounts"
+            ]
+        },
+        "restaurant_reservation": {
+            "context": {
+                "location": "fine_dining_restaurant",
+                "purpose": "dinner_booking",
+                "requester_role": "maitre_d"
+            },
+            "data_requested": [
+                "dietary_restrictions",
+                "seating_preferences",
+                "payment_method",
+                "annual_income",
+                "home_address_history",
+                "social_connections"
+            ]
+        },
+        "unauthorized_medical_lookup": {
+            "context": {
+                "location": "private_residence",
+                "purpose": "personal_investigation",
+                "requester_role": "private_investigator"
+            },
+            "data_requested": [
+                "medical_history",
+                "mental_health_records",
+                "prescription_history",
+                "hospital_visits"
+            ]
+        },
+        "social_media_stalking": {
+            "context": {
+                "location": "remote_access",
+                "purpose": "personal_interest",
+                "requester_role": "former_classmate"
+            },
+            "data_requested": [
+                "home_address",
+                "workplace_details",
+                "family_information",
+                "daily_schedule",
+                "social_connections"
+            ]
+        },
+        "unauthorized_financial_access": {
+            "context": {
+                "location": "remote_access",
+                "purpose": "market_research",
+                "requester_role": "marketing_analyst"
+            },
+            "data_requested": [
+                "bank_statements",
+                "credit_score",
+                "investment_portfolio",
+                "transaction_history",
+                "loan_applications"
+            ]
+        }
+    }
+}
